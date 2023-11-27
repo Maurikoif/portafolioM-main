@@ -1,0 +1,66 @@
+/* Favoritos.css */
+
+.favoritos-container {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+
+.favoritos-title {
+    color: #4a90e2;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.favoritos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.creacion-favorita {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.creacion-favorita:hover {
+    background-color: rgb(200, 233, 222);
+}
+
+.creacion-favorita-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.creacion-favorita-title,
+.creacion-favorita-description {
+    padding: 16px;
+    text-align: center;
+}
+
+.creacion-favorita-link {
+    display: block;
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.favoritos-empty {
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+}

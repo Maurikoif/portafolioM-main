@@ -1,0 +1,118 @@
+/* Home.css */
+
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80.5vh;
+    background-color: #8cd0e9;
+    color: #f8f8f8;
+}
+
+.main-header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    transition: transform 0.5s ease-in-out, margin-right 0.5s ease-in-out;
+    ;
+    /* Agregué la propiedad de transición */
+}
+
+.main-header h1:hover {
+    transform: scale(1.1);
+    margin-right: 1.5%;
+    /* Aumenta el tamaño al pasar el mouse */
+}
+
+.main-header h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 0;
+    /* Agregué el margen inicial */
+    transition: transform 0.9s ease-in-out, margin-left 0.5s ease-in-out;
+    /* Propiedades de transición */
+}
+
+.main-header h2:hover {
+    margin-left: 2.5%;
+    /* Aplica el margen al pasar el mouse */
+    transform: scale(1.2, 1.2);
+    /* Aumenta el tamaño al pasar el mouse */
+}
+
+.creations-section {
+    background-color: #ffffff;
+    margin-top: 1%;
+    align-items: center;
+    height: 70.5vh;
+    margin-bottom: 2%;
+}
+
+.creations-section h1 {
+    color: #4a90e2;
+}
+
+.creations-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.creation-card {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.creation-card:hover {
+    transform: scale(1.1);
+}
+
+.creation-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-details {
+    height: 30%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-details h2 {
+    font-size: 18px;
+    color: #4a90e2;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+.card-details a {
+    display: block;
+    color: #2ecc71;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.creations-section h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .creation-card {
+        width: 100%;
+        /* Cambiar el ancho a 100% para una sola columna en pantallas pequeñas */
+    }
+}

@@ -1,0 +1,71 @@
+/* detalleCreacion.css */
+
+.detalle-creacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e2e5e3;
+    /* Cambié el color de fondo */
+}
+
+.detalle-creacion-img {
+    width: 80%;
+    /* Modifiqué el ancho de la imagen */
+    max-width: 600px;
+    /* Establecí un ancho máximo para la imagen */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* Añadí margen inferior a la imagen */
+}
+
+.detalle-creacion-content {
+    width: 80%;
+    /* Modifiqué el ancho del contenido */
+    max-width: 600px;
+    /* Establecí un ancho máximo para el contenido */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Centré el texto */
+}
+
+.detalle-creacion-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detalle-creacion-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.detalle-creacion-link {
+    display: block;
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

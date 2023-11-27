@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(123, 183, 194);
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer .copyright {
+    background-color: rgb(117, 171, 175);
+    color: rgb(0, 0, 0);
+}

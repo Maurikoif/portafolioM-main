@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pizzas API",
+        "foto": "/pizza.jpg",
+        "descripcion": "Trabajo para entender la creacion y manejo de apis.",
+        "link": "https://github.com/Maurikoif"
+    },
+    {
+        "id": 2,
+        "titulo": "UniChoice",
+        "foto": "/unichoice.png",
+        "descripcion": "Plataforma para encontrar la universidad ideal para vos y prepararte para tu futuro.",
+        "link": "https://github.com/Maurikoif"
+    },
+    {
+        "id": 3,
+        "titulo": "Hardware",
+        "foto": "/hardware.jpeg",
+        "descripcion": "Proyecto de react native utilizando diferentes funcionalidades del celular.",
+        "link": "https://github.com/Maurikoif"
+    },
+    {
+        "id": 4,
+        "titulo": "Banderas",
+        "foto": "/banderas.jpg",
+        "descripcion": "Juego para adivinar a que pais pertenece la bandera.",
+        "link": "https://github.com/Maurikoif"
+    },
+    {
+        "id": 5,
+        "titulo": "Catalogo de productos",
+        "foto": "/catalogo.jpg",
+        "descripcion": "Web de venta de productos utilizando apis.",
+        "link": "https://github.com/Maurikoif"
+    },
+    {
+        "id": 6,
+        "titulo": "TP Personajes",
+        "foto": "/personajes.webp",
+        "descripcion": "Creacion y manejo de api.",
+        "link": "https://github.com/Maurikoif"
+    }
+]

@@ -1,0 +1,43 @@
+/* Layout.css */
+
+.navbar {
+    background: rgb(83, 151, 185);
+    /* Cambié el color de fondo */
+    padding: 15px;
+
+    height: 70px;
+    /* Aumenté el espacio interno */
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    /* Cambié de centrado a espacio entre los elementos */
+    max-width: 800px;
+
+}
+
+.navbar-item {
+    margin-left: 12%;
+    /* Eliminé el margen derecho individual */
+}
+
+.navbar-link {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    /* Reduje el tamaño de la fuente */
+    font-weight: normal;
+    /* Cambié a peso normal */
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: rgb(47, 206, 255);
+    text-decoration: underline;
+    /* Añadí subrayado al pasar el mouse */
+}

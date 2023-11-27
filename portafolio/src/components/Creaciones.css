@@ -1,0 +1,66 @@
+/* Creaciones.css */
+
+.creaciones-container {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.creaciones-title {
+    font-size: 36px;
+    color: #4a90e2;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.creaciones-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.creacion-row {
+    border-bottom: 2px solid #ddd;
+}
+
+.creacion-row:hover {
+    border-bottom: 2px solid #ddd;
+    background-color: #eadede;
+}
+
+.creacion-img-cell {
+    width: 20%;
+}
+
+.creacion-link {
+    text-decoration: none;
+}
+
+.creacion-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.creacion-title-cell,
+.creacion-description-cell {
+    padding: 15px;
+}
+
+.creacion-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.creacion-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+    text-align: center;
+}
